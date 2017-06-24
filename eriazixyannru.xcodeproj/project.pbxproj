@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12353B31EEBBFB4009D8188 /* dokoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12353B21EEBBFB4009D8188 /* dokoViewController.swift */; };
 		B14C33BF1EC701100002F99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33BE1EC701100002F99E /* AppDelegate.swift */; };
 		B14C33C11EC701100002F99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33C01EC701100002F99E /* ViewController.swift */; };
 		B14C33C41EC701100002F99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14C33C21EC701100002F99E /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		B14C33C91EC701100002F99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14C33C71EC701100002F99E /* LaunchScreen.storyboard */; };
 		B14C33D41EC701100002F99E /* eriazixyannruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33D31EC701100002F99E /* eriazixyannruTests.swift */; };
 		B14C33DF1EC701100002F99E /* eriazixyannruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33DE1EC701100002F99E /* eriazixyannruUITests.swift */; };
+		B14C33EF1EC716A10002F99E /* zixyannruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */; };
+		B1A24F8C1EFD3E34003EE1DB /* ru-ret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */; };
+		B1A24F901EFD40CA003EE1DB /* ru-ret2.001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B1A24F8F1EFD40CA003EE1DB /* ru-ret2.001.jpeg */; };
+		B1A24F921EFD42E4003EE1DB /* ru-ret3.001.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A24F911EFD42E4003EE1DB /* ru-ret3.001.png */; };
+		B1BFCDEA1EFE2FF6006FBB86 /* ru-ret3.001.png in Resources */ = {isa = PBXBuildFile; fileRef = B1BFCDE91EFE2FF6006FBB86 /* ru-ret3.001.png */; };
+		B1FBA9FB1ED971B300A6D9D4 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B12353B21EEBBFB4009D8188 /* dokoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dokoViewController.swift; sourceTree = "<group>"; };
 		B14C33BB1EC701100002F99E /* eriazixyannru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eriazixyannru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14C33BE1EC701100002F99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B14C33C01EC701100002F99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		B14C33DA1EC701100002F99E /* eriazixyannruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eriazixyannruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14C33DE1EC701100002F99E /* eriazixyannruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eriazixyannruUITests.swift; sourceTree = "<group>"; };
 		B14C33E01EC701100002F99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zixyannruViewController.swift; sourceTree = "<group>"; };
+		B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-ret.jpg"; path = "../../../../Downloads/ru-ret.jpg"; sourceTree = "<group>"; };
+		B1A24F8F1EFD40CA003EE1DB /* ru-ret2.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-ret2.001.jpeg"; path = "../../../ru-ret2/ru-ret2.001.jpeg"; sourceTree = "<group>"; };
+		B1A24F911EFD42E4003EE1DB /* ru-ret3.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ru-ret3.001.png"; path = "../../../ru-ret3/ru-ret3.001.png"; sourceTree = "<group>"; };
+		B1BFCDE91EFE2FF6006FBB86 /* ru-ret3.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ru-ret3.001.png"; path = "../../../ru-ret3/ru-ret3.001.png"; sourceTree = "<group>"; };
+		B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				B14C33BE1EC701100002F99E /* AppDelegate.swift */,
+				B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */,
 				B14C33C01EC701100002F99E /* ViewController.swift */,
 				B14C33C21EC701100002F99E /* Main.storyboard */,
+				B1BFCDE91EFE2FF6006FBB86 /* ru-ret3.001.png */,
+				B1A24F8F1EFD40CA003EE1DB /* ru-ret2.001.jpeg */,
+				B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */,
+				B1A24F911EFD42E4003EE1DB /* ru-ret3.001.png */,
 				B14C33C51EC701100002F99E /* Assets.xcassets */,
 				B14C33C71EC701100002F99E /* LaunchScreen.storyboard */,
 				B14C33CA1EC701100002F99E /* Info.plist */,
+				B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */,
+				B12353B21EEBBFB4009D8188 /* dokoViewController.swift */,
 			);
 			path = eriazixyannru;
 			sourceTree = "<group>";
@@ -193,6 +214,7 @@
 				TargetAttributes = {
 					B14C33BA1EC701100002F99E = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 92Q8B9R8TJ;
 						ProvisioningStyle = Automatic;
 					};
 					B14C33CE1EC701100002F99E = {
@@ -232,7 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A24F901EFD40CA003EE1DB /* ru-ret2.001.jpeg in Resources */,
 				B14C33C91EC701100002F99E /* LaunchScreen.storyboard in Resources */,
+				B1BFCDEA1EFE2FF6006FBB86 /* ru-ret3.001.png in Resources */,
+				B1A24F8C1EFD3E34003EE1DB /* ru-ret.jpg in Resources */,
+				B1A24F921EFD42E4003EE1DB /* ru-ret3.001.png in Resources */,
 				B14C33C61EC701100002F99E /* Assets.xcassets in Resources */,
 				B14C33C41EC701100002F99E /* Main.storyboard in Resources */,
 			);
@@ -259,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FBA9FB1ED971B300A6D9D4 /* GenreViewController.swift in Sources */,
 				B14C33C11EC701100002F99E /* ViewController.swift in Sources */,
 				B14C33BF1EC701100002F99E /* AppDelegate.swift in Sources */,
+				B14C33EF1EC716A10002F99E /* zixyannruViewController.swift in Sources */,
+				B12353B31EEBBFB4009D8188 /* dokoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92Q8B9R8TJ;
 				INFOPLIST_FILE = eriazixyannru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = keitaro.eriazixyannru;
@@ -424,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92Q8B9R8TJ;
 				INFOPLIST_FILE = eriazixyannru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = keitaro.eriazixyannru;
@@ -505,6 +536,7 @@
 				B14C33E51EC701100002F99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B14C33E61EC701100002F99E /* Build configuration list for PBXNativeTarget "eriazixyannruTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +545,7 @@
 				B14C33E81EC701100002F99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B14C33E91EC701100002F99E /* Build configuration list for PBXNativeTarget "eriazixyannruUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +554,7 @@
 				B14C33EB1EC701100002F99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
