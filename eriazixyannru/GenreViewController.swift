@@ -13,6 +13,9 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
     @IBOutlet var button:UIButton!
     @IBOutlet var mypickerview:UIPickerView!
     let pickerviewArray: NSArray = ["ファッション","遊び","ショッピング"]
+   
+    //ユーザーデフォルトアクセス
+    let saveData: UserDefaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +25,8 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
         mypickerview.delegate = self
         //mypickerviewのデータソースになる
         mypickerview.dataSource = self
+        
+        
         
     }
     
@@ -52,11 +57,17 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print("row: \(row)")
         print("value: \(pickerviewArray[row])")
+        saveData.set(pickerviewArray[row], forKey: "picker2" )
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    
+    
+    
+    
     
     
 

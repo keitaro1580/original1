@@ -16,10 +16,9 @@
 		B14C33D41EC701100002F99E /* eriazixyannruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33D31EC701100002F99E /* eriazixyannruTests.swift */; };
 		B14C33DF1EC701100002F99E /* eriazixyannruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33DE1EC701100002F99E /* eriazixyannruUITests.swift */; };
 		B14C33EF1EC716A10002F99E /* zixyannruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */; };
+		B16C50431F10BBE900744B44 /* ru-ret3.001.png in Resources */ = {isa = PBXBuildFile; fileRef = B16C50421F10BBE900744B44 /* ru-ret3.001.png */; };
+		B16C50451F10BCE500744B44 /* ru-ret2.001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16C50441F10BCE500744B44 /* ru-ret2.001.jpeg */; };
 		B1A24F8C1EFD3E34003EE1DB /* ru-ret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */; };
-		B1A24F901EFD40CA003EE1DB /* ru-ret2.001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B1A24F8F1EFD40CA003EE1DB /* ru-ret2.001.jpeg */; };
-		B1A24F921EFD42E4003EE1DB /* ru-ret3.001.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A24F911EFD42E4003EE1DB /* ru-ret3.001.png */; };
-		B1BFCDEA1EFE2FF6006FBB86 /* ru-ret3.001.png in Resources */ = {isa = PBXBuildFile; fileRef = B1BFCDE91EFE2FF6006FBB86 /* ru-ret3.001.png */; };
 		B1FBA9FB1ED971B300A6D9D4 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,10 +55,9 @@
 		B14C33DE1EC701100002F99E /* eriazixyannruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eriazixyannruUITests.swift; sourceTree = "<group>"; };
 		B14C33E01EC701100002F99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zixyannruViewController.swift; sourceTree = "<group>"; };
+		B16C50421F10BBE900744B44 /* ru-ret3.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ru-ret3.001.png"; path = "../../../ru-ret3.001.png"; sourceTree = "<group>"; };
+		B16C50441F10BCE500744B44 /* ru-ret2.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-ret2.001.jpeg"; path = "../../../ru-ret2.001.jpeg"; sourceTree = "<group>"; };
 		B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-ret.jpg"; path = "../../../../Downloads/ru-ret.jpg"; sourceTree = "<group>"; };
-		B1A24F8F1EFD40CA003EE1DB /* ru-ret2.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-ret2.001.jpeg"; path = "../../../ru-ret2/ru-ret2.001.jpeg"; sourceTree = "<group>"; };
-		B1A24F911EFD42E4003EE1DB /* ru-ret3.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ru-ret3.001.png"; path = "../../../ru-ret3/ru-ret3.001.png"; sourceTree = "<group>"; };
-		B1BFCDE91EFE2FF6006FBB86 /* ru-ret3.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ru-ret3.001.png"; path = "../../../ru-ret3/ru-ret3.001.png"; sourceTree = "<group>"; };
 		B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,14 +109,13 @@
 		B14C33BD1EC701100002F99E /* eriazixyannru */ = {
 			isa = PBXGroup;
 			children = (
+				B16C50441F10BCE500744B44 /* ru-ret2.001.jpeg */,
+				B16C50421F10BBE900744B44 /* ru-ret3.001.png */,
 				B14C33BE1EC701100002F99E /* AppDelegate.swift */,
 				B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */,
 				B14C33C01EC701100002F99E /* ViewController.swift */,
 				B14C33C21EC701100002F99E /* Main.storyboard */,
-				B1BFCDE91EFE2FF6006FBB86 /* ru-ret3.001.png */,
-				B1A24F8F1EFD40CA003EE1DB /* ru-ret2.001.jpeg */,
 				B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */,
-				B1A24F911EFD42E4003EE1DB /* ru-ret3.001.png */,
 				B14C33C51EC701100002F99E /* Assets.xcassets */,
 				B14C33C71EC701100002F99E /* LaunchScreen.storyboard */,
 				B14C33CA1EC701100002F99E /* Info.plist */,
@@ -254,11 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1A24F901EFD40CA003EE1DB /* ru-ret2.001.jpeg in Resources */,
+				B16C50451F10BCE500744B44 /* ru-ret2.001.jpeg in Resources */,
 				B14C33C91EC701100002F99E /* LaunchScreen.storyboard in Resources */,
-				B1BFCDEA1EFE2FF6006FBB86 /* ru-ret3.001.png in Resources */,
 				B1A24F8C1EFD3E34003EE1DB /* ru-ret.jpg in Resources */,
-				B1A24F921EFD42E4003EE1DB /* ru-ret3.001.png in Resources */,
+				B16C50431F10BBE900744B44 /* ru-ret3.001.png in Resources */,
 				B14C33C61EC701100002F99E /* Assets.xcassets in Resources */,
 				B14C33C41EC701100002F99E /* Main.storyboard in Resources */,
 			);
