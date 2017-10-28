@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E61123A69FAB2E7A2D157D94DD262622040467CD+++56F5B4F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E61123A69FAB2E7A2D157D94DD262622040467CD+++DD870B6" : 9223372036854775807,
+    "E61123A69FAB2E7A2D157D94DD262622040467CD+++AE7AE6F" : 9223372036854775807,
+    "E61123A69FAB2E7A2D157D94DD262622040467CD+++56F5B4F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E77FC37-F266-4F31-A863-FED84D37C8D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E61123A69FAB2E7A2D157D94DD262622040467CD+++DD870B6" : "eriazixyannru2\/",
+    "E61123A69FAB2E7A2D157D94DD262622040467CD+++AE7AE6F" : "eriazixyannru2\/",
+    "E61123A69FAB2E7A2D157D94DD262622040467CD+++56F5B4F" : "eriazixyannru%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "eriazixyannru",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "eriazixyannru.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/keitaro1580\/original1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E61123A69FAB2E7A2D157D94DD262622040467CD+++56F5B4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/keitaro1580\/original1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E61123A69FAB2E7A2D157D94DD262622040467CD+++AE7AE6F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/keitaro1580\/original1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E61123A69FAB2E7A2D157D94DD262622040467CD+++DD870B6"
+    }
+  ]
+}
