@@ -13,7 +13,6 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
     @IBOutlet var button:UIButton!
     @IBOutlet var mypickerview:UIPickerView!
     let pickerviewArray: NSArray = ["ファッション","遊び","ショッピング"]
-   
     //ユーザーデフォルトアクセス
     let saveData: UserDefaults = UserDefaults.standard
     
@@ -25,6 +24,8 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
         mypickerview.delegate = self
         //mypickerviewのデータソースになる
         mypickerview.dataSource = self
+        
+        mypickerview.selectedRow(inComponent: 0)
         
         
         
@@ -48,6 +49,7 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
      pickerに表示する値を返すデリゲートメソッド.
      */
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        print("show value: \(pickerviewArray[row])")
         return pickerviewArray[row] as? String
     }
     
@@ -57,7 +59,8 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print("row: \(row)")
         print("value: \(pickerviewArray[row])")
-        saveData.set(pickerviewArray[row], forKey: "picker2" )
+        saveData.set(pickerviewArray[row], forKey: "Genre" )
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -68,7 +71,7 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
     
     
     
-    
+}
     
 
     /*
@@ -81,4 +84,3 @@ class GenreViewController: UIViewController , UIPickerViewDelegate, UIPickerView
     }
     */
 
-}

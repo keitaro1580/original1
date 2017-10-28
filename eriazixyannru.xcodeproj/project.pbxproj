@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10A4E0A1F496ADB0093328C /* iti.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A4E091F496ADB0093328C /* iti.swift */; };
+		B11ABB7D1F80A8C9006D2F70 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = B11ABB7C1F80A8C9006D2F70 /* circle.png */; };
+		B11ABB7F1F80A905006D2F70 /* button_ stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = B11ABB7E1F80A905006D2F70 /* button_ stroke.png */; };
+		B11ABB811F80A91E006D2F70 /* if_arrow_left_circle_1303871 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B11ABB801F80A91E006D2F70 /* if_arrow_left_circle_1303871 2.png */; };
+		B11ABB831F80A963006D2F70 /* ic_arrow_back_white_36dp_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B11ABB821F80A963006D2F70 /* ic_arrow_back_white_36dp_2x.png */; };
+		B11ABB851F80AA1D006D2F70 /* if_arrow_left_circle_1303871.png in Resources */ = {isa = PBXBuildFile; fileRef = B11ABB841F80AA1D006D2F70 /* if_arrow_left_circle_1303871.png */; };
+		B11ABB871F80AA30006D2F70 /* yazirusipng.png in Resources */ = {isa = PBXBuildFile; fileRef = B11ABB861F80AA30006D2F70 /* yazirusipng.png */; };
 		B12353B31EEBBFB4009D8188 /* dokoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12353B21EEBBFB4009D8188 /* dokoViewController.swift */; };
 		B14C33BF1EC701100002F99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33BE1EC701100002F99E /* AppDelegate.swift */; };
 		B14C33C11EC701100002F99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33C01EC701100002F99E /* ViewController.swift */; };
@@ -16,9 +23,27 @@
 		B14C33D41EC701100002F99E /* eriazixyannruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33D31EC701100002F99E /* eriazixyannruTests.swift */; };
 		B14C33DF1EC701100002F99E /* eriazixyannruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33DE1EC701100002F99E /* eriazixyannruUITests.swift */; };
 		B14C33EF1EC716A10002F99E /* zixyannruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */; };
-		B16C50431F10BBE900744B44 /* ru-ret3.001.png in Resources */ = {isa = PBXBuildFile; fileRef = B16C50421F10BBE900744B44 /* ru-ret3.001.png */; };
-		B16C50451F10BCE500744B44 /* ru-ret2.001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B16C50441F10BCE500744B44 /* ru-ret2.001.jpeg */; };
-		B1A24F8C1EFD3E34003EE1DB /* ru-ret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */; };
+		B16C50471F10C5FD00744B44 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16C50461F10C5FD00744B44 /* TableViewController.swift */; };
+		B16C50491F10F8A400744B44 /* ru-ret3.001.png in Resources */ = {isa = PBXBuildFile; fileRef = B16C50481F10F8A400744B44 /* ru-ret3.001.png */; };
+		B175E6C61F2C846A009A7BB4 /* HyojiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175E6C51F2C846A009A7BB4 /* HyojiController.swift */; };
+		B175E71E1F36B296009A7BB4 /* CellTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175E71D1F36B296009A7BB4 /* CellTapViewController.swift */; };
+		B1A92AFE1F468F7A00E7D5CD /* pinn.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A92AFC1F468F7A00E7D5CD /* pinn.png */; };
+		B1A92B011F468F9600E7D5CD /* ie.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B001F468F9600E7D5CD /* ie.png */; };
+		B1A92B051F46974200E7D5CD /* PodfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A92B041F46974200E7D5CD /* PodfileViewController.swift */; };
+		B1A92B081F46AAA100E7D5CD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A92B071F46AAA100E7D5CD /* MapKit.framework */; };
+		B1A92B471F46DD3500E7D5CD /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B461F46DD3500E7D5CD /* icon2.png */; };
+		B1A92B651F4857FD00E7D5CD /* meguro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B641F4857FD00E7D5CD /* meguro.jpg */; };
+		B1A92B6C1F48581700E7D5CD /* meguro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B661F48581700E7D5CD /* meguro.jpg */; };
+		B1A92B6E1F48581700E7D5CD /* odaiba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B681F48581700E7D5CD /* odaiba.jpg */; };
+		B1A92B711F48581800E7D5CD /* sinnzixyuku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B6B1F48581700E7D5CD /* sinnzixyuku.jpg */; };
+		B1A92B781F485EA500E7D5CD /* meguro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B721F485EA500E7D5CD /* meguro.jpg */; };
+		B1A92B791F485EA500E7D5CD /* minatoku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B731F485EA500E7D5CD /* minatoku.jpg */; };
+		B1A92B7A1F485EA500E7D5CD /* odaiba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B741F485EA500E7D5CD /* odaiba.jpg */; };
+		B1A92B7B1F485EA500E7D5CD /* sibuya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B751F485EA500E7D5CD /* sibuya.jpeg */; };
+		B1A92B7D1F485EA500E7D5CD /* sinnzixyuku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B771F485EA500E7D5CD /* sinnzixyuku.jpg */; };
+		B1A92B7F1F485FB100E7D5CD /* sibuya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B7E1F485FB100E7D5CD /* sibuya.jpg */; };
+		B1BDEACA1FA4961700C1292F /* ripito.png in Resources */ = {isa = PBXBuildFile; fileRef = B1BDEAC91FA4961700C1292F /* ripito.png */; };
+		B1BDEACC1FA4963900C1292F /* sinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1BDEACB1FA4963900C1292F /* sinagawa.jpg */; };
 		B1FBA9FB1ED971B300A6D9D4 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +65,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B10A4E091F496ADB0093328C /* iti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iti.swift; sourceTree = "<group>"; };
+		B11ABB7C1F80A8C9006D2F70 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = "../../../../エリアアプリ素材/circle.png"; sourceTree = "<group>"; };
+		B11ABB7E1F80A905006D2F70 /* button_ stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_ stroke.png"; path = "../../../../エリアアプリ素材/button_ stroke.png"; sourceTree = "<group>"; };
+		B11ABB801F80A91E006D2F70 /* if_arrow_left_circle_1303871 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "if_arrow_left_circle_1303871 2.png"; path = "../../../../エリアアプリ素材/if_arrow_left_circle_1303871 2.png"; sourceTree = "<group>"; };
+		B11ABB821F80A963006D2F70 /* ic_arrow_back_white_36dp_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_arrow_back_white_36dp_2x.png; path = "../../../../エリアアプリ素材/ic_arrow_back_white_36dp_2x.png"; sourceTree = "<group>"; };
+		B11ABB841F80AA1D006D2F70 /* if_arrow_left_circle_1303871.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = if_arrow_left_circle_1303871.png; path = "../../../../エリアアプリ素材/if_arrow_left_circle_1303871.png"; sourceTree = "<group>"; };
+		B11ABB861F80AA30006D2F70 /* yazirusipng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yazirusipng.png; path = "../../../../エリアアプリ素材/yazirusipng.png"; sourceTree = "<group>"; };
 		B12353B21EEBBFB4009D8188 /* dokoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dokoViewController.swift; sourceTree = "<group>"; };
 		B14C33BB1EC701100002F99E /* eriazixyannru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eriazixyannru.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B14C33BE1EC701100002F99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B14C33BE1EC701100002F99E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B14C33C01EC701100002F99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B14C33C31EC701100002F99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B14C33C51EC701100002F99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,9 +87,27 @@
 		B14C33DE1EC701100002F99E /* eriazixyannruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eriazixyannruUITests.swift; sourceTree = "<group>"; };
 		B14C33E01EC701100002F99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zixyannruViewController.swift; sourceTree = "<group>"; };
-		B16C50421F10BBE900744B44 /* ru-ret3.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ru-ret3.001.png"; path = "../../../ru-ret3.001.png"; sourceTree = "<group>"; };
-		B16C50441F10BCE500744B44 /* ru-ret2.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-ret2.001.jpeg"; path = "../../../ru-ret2.001.jpeg"; sourceTree = "<group>"; };
-		B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ru-ret.jpg"; path = "../../../../Downloads/ru-ret.jpg"; sourceTree = "<group>"; };
+		B16C50461F10C5FD00744B44 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B16C50481F10F8A400744B44 /* ru-ret3.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ru-ret3.001.png"; path = "../../../ルーレット　画像/ru-ret3.001.png"; sourceTree = "<group>"; };
+		B175E6C51F2C846A009A7BB4 /* HyojiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyojiController.swift; sourceTree = "<group>"; };
+		B175E71D1F36B296009A7BB4 /* CellTapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTapViewController.swift; sourceTree = "<group>"; };
+		B1A92AFC1F468F7A00E7D5CD /* pinn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinn.png; sourceTree = "<group>"; };
+		B1A92B001F468F9600E7D5CD /* ie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ie.png; sourceTree = "<group>"; };
+		B1A92B041F46974200E7D5CD /* PodfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodfileViewController.swift; sourceTree = "<group>"; };
+		B1A92B071F46AAA100E7D5CD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1A92B461F46DD3500E7D5CD /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		B1A92B641F4857FD00E7D5CD /* meguro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meguro.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B661F48581700E7D5CD /* meguro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meguro.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B681F48581700E7D5CD /* odaiba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = odaiba.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B6B1F48581700E7D5CD /* sinnzixyuku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinnzixyuku.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B721F485EA500E7D5CD /* meguro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meguro.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B731F485EA500E7D5CD /* minatoku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minatoku.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B741F485EA500E7D5CD /* odaiba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = odaiba.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B751F485EA500E7D5CD /* sibuya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sibuya.jpeg; sourceTree = SOURCE_ROOT; };
+		B1A92B771F485EA500E7D5CD /* sinnzixyuku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinnzixyuku.jpg; sourceTree = SOURCE_ROOT; };
+		B1A92B7E1F485FB100E7D5CD /* sibuya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sibuya.jpg; sourceTree = SOURCE_ROOT; };
+		B1BDEAC91FA4961700C1292F /* ripito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripito.png; sourceTree = "<group>"; };
+		B1BDEACB1FA4963900C1292F /* sinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinagawa.jpg; sourceTree = "<group>"; };
 		B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A92B081F46AAA100E7D5CD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +144,7 @@
 				B14C33D21EC701100002F99E /* eriazixyannruTests */,
 				B14C33DD1EC701100002F99E /* eriazixyannruUITests */,
 				B14C33BC1EC701100002F99E /* Products */,
+				B1A92B061F46AAA100E7D5CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,18 +161,42 @@
 		B14C33BD1EC701100002F99E /* eriazixyannru */ = {
 			isa = PBXGroup;
 			children = (
-				B16C50441F10BCE500744B44 /* ru-ret2.001.jpeg */,
-				B16C50421F10BBE900744B44 /* ru-ret3.001.png */,
+				B1A92B661F48581700E7D5CD /* meguro.jpg */,
+				B1A92B681F48581700E7D5CD /* odaiba.jpg */,
+				B1A92B721F485EA500E7D5CD /* meguro.jpg */,
+				B1A92B731F485EA500E7D5CD /* minatoku.jpg */,
+				B1A92B741F485EA500E7D5CD /* odaiba.jpg */,
+				B1A92B751F485EA500E7D5CD /* sibuya.jpeg */,
+				B1BDEACB1FA4963900C1292F /* sinagawa.jpg */,
+				B1A92B771F485EA500E7D5CD /* sinnzixyuku.jpg */,
+				B1A92B7E1F485FB100E7D5CD /* sibuya.jpg */,
+				B1A92B6B1F48581700E7D5CD /* sinnzixyuku.jpg */,
+				B11ABB841F80AA1D006D2F70 /* if_arrow_left_circle_1303871.png */,
+				B11ABB801F80A91E006D2F70 /* if_arrow_left_circle_1303871 2.png */,
+				B11ABB821F80A963006D2F70 /* ic_arrow_back_white_36dp_2x.png */,
+				B11ABB7C1F80A8C9006D2F70 /* circle.png */,
+				B1A92B641F4857FD00E7D5CD /* meguro.jpg */,
+				B1A92B461F46DD3500E7D5CD /* icon2.png */,
+				B11ABB861F80AA30006D2F70 /* yazirusipng.png */,
+				B1A92B001F468F9600E7D5CD /* ie.png */,
+				B1A92AFC1F468F7A00E7D5CD /* pinn.png */,
+				B1BDEAC91FA4961700C1292F /* ripito.png */,
+				B11ABB7E1F80A905006D2F70 /* button_ stroke.png */,
 				B14C33BE1EC701100002F99E /* AppDelegate.swift */,
 				B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */,
 				B14C33C01EC701100002F99E /* ViewController.swift */,
+				B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */,
+				B12353B21EEBBFB4009D8188 /* dokoViewController.swift */,
+				B16C50461F10C5FD00744B44 /* TableViewController.swift */,
 				B14C33C21EC701100002F99E /* Main.storyboard */,
-				B1A24F8B1EFD3E34003EE1DB /* ru-ret.jpg */,
 				B14C33C51EC701100002F99E /* Assets.xcassets */,
 				B14C33C71EC701100002F99E /* LaunchScreen.storyboard */,
 				B14C33CA1EC701100002F99E /* Info.plist */,
-				B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */,
-				B12353B21EEBBFB4009D8188 /* dokoViewController.swift */,
+				B175E6C51F2C846A009A7BB4 /* HyojiController.swift */,
+				B175E71D1F36B296009A7BB4 /* CellTapViewController.swift */,
+				B1A92B041F46974200E7D5CD /* PodfileViewController.swift */,
+				B16C50481F10F8A400744B44 /* ru-ret3.001.png */,
+				B10A4E091F496ADB0093328C /* iti.swift */,
 			);
 			path = eriazixyannru;
 			sourceTree = "<group>";
@@ -128,8 +204,8 @@
 		B14C33D21EC701100002F99E /* eriazixyannruTests */ = {
 			isa = PBXGroup;
 			children = (
-				B14C33D31EC701100002F99E /* eriazixyannruTests.swift */,
 				B14C33D51EC701100002F99E /* Info.plist */,
+				B14C33D31EC701100002F99E /* eriazixyannruTests.swift */,
 			);
 			path = eriazixyannruTests;
 			sourceTree = "<group>";
@@ -141,6 +217,14 @@
 				B14C33E01EC701100002F99E /* Info.plist */,
 			);
 			path = eriazixyannruUITests;
+			sourceTree = "<group>";
+		};
+		B1A92B061F46AAA100E7D5CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1A92B071F46AAA100E7D5CD /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,12 +335,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16C50451F10BCE500744B44 /* ru-ret2.001.jpeg in Resources */,
+				B1A92B7A1F485EA500E7D5CD /* odaiba.jpg in Resources */,
+				B11ABB7F1F80A905006D2F70 /* button_ stroke.png in Resources */,
+				B1A92B471F46DD3500E7D5CD /* icon2.png in Resources */,
 				B14C33C91EC701100002F99E /* LaunchScreen.storyboard in Resources */,
-				B1A24F8C1EFD3E34003EE1DB /* ru-ret.jpg in Resources */,
-				B16C50431F10BBE900744B44 /* ru-ret3.001.png in Resources */,
+				B1A92B7F1F485FB100E7D5CD /* sibuya.jpg in Resources */,
+				B1A92B781F485EA500E7D5CD /* meguro.jpg in Resources */,
+				B1A92AFE1F468F7A00E7D5CD /* pinn.png in Resources */,
+				B1BDEACA1FA4961700C1292F /* ripito.png in Resources */,
+				B1A92B7D1F485EA500E7D5CD /* sinnzixyuku.jpg in Resources */,
+				B1A92B651F4857FD00E7D5CD /* meguro.jpg in Resources */,
+				B11ABB811F80A91E006D2F70 /* if_arrow_left_circle_1303871 2.png in Resources */,
+				B1A92B711F48581800E7D5CD /* sinnzixyuku.jpg in Resources */,
+				B1A92B7B1F485EA500E7D5CD /* sibuya.jpeg in Resources */,
+				B1A92B6C1F48581700E7D5CD /* meguro.jpg in Resources */,
+				B16C50491F10F8A400744B44 /* ru-ret3.001.png in Resources */,
 				B14C33C61EC701100002F99E /* Assets.xcassets in Resources */,
+				B11ABB871F80AA30006D2F70 /* yazirusipng.png in Resources */,
+				B1BDEACC1FA4963900C1292F /* sinagawa.jpg in Resources */,
+				B11ABB831F80A963006D2F70 /* ic_arrow_back_white_36dp_2x.png in Resources */,
 				B14C33C41EC701100002F99E /* Main.storyboard in Resources */,
+				B11ABB851F80AA1D006D2F70 /* if_arrow_left_circle_1303871.png in Resources */,
+				B1A92B6E1F48581700E7D5CD /* odaiba.jpg in Resources */,
+				B11ABB7D1F80A8C9006D2F70 /* circle.png in Resources */,
+				B1A92B791F485EA500E7D5CD /* minatoku.jpg in Resources */,
+				B1A92B011F468F9600E7D5CD /* ie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10A4E0A1F496ADB0093328C /* iti.swift in Sources */,
+				B175E6C61F2C846A009A7BB4 /* HyojiController.swift in Sources */,
 				B1FBA9FB1ED971B300A6D9D4 /* GenreViewController.swift in Sources */,
+				B175E71E1F36B296009A7BB4 /* CellTapViewController.swift in Sources */,
+				B1A92B051F46974200E7D5CD /* PodfileViewController.swift in Sources */,
+				B16C50471F10C5FD00744B44 /* TableViewController.swift in Sources */,
 				B14C33C11EC701100002F99E /* ViewController.swift in Sources */,
 				B14C33BF1EC701100002F99E /* AppDelegate.swift in Sources */,
 				B14C33EF1EC716A10002F99E /* zixyannruViewController.swift in Sources */,
@@ -437,11 +545,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 92Q8B9R8TJ;
 				INFOPLIST_FILE = eriazixyannru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = keitaro.eriazixyannru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -450,11 +560,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 92Q8B9R8TJ;
 				INFOPLIST_FILE = eriazixyannru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = keitaro.eriazixyannru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
