@@ -44,6 +44,7 @@
 		B1A92B7F1F485FB100E7D5CD /* sibuya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A92B7E1F485FB100E7D5CD /* sibuya.jpg */; };
 		B1BDEACA1FA4961700C1292F /* ripito.png in Resources */ = {isa = PBXBuildFile; fileRef = B1BDEAC91FA4961700C1292F /* ripito.png */; };
 		B1BDEACC1FA4963900C1292F /* sinagawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1BDEACB1FA4963900C1292F /* sinagawa.jpg */; };
+		B1BDEACE1FA499B800C1292F /* ComentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BDEACD1FA499B800C1292F /* ComentViewController.swift */; };
 		B1FBA9FB1ED971B300A6D9D4 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,7 @@
 		B1A92B7E1F485FB100E7D5CD /* sibuya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sibuya.jpg; sourceTree = SOURCE_ROOT; };
 		B1BDEAC91FA4961700C1292F /* ripito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ripito.png; sourceTree = "<group>"; };
 		B1BDEACB1FA4963900C1292F /* sinagawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinagawa.jpg; sourceTree = "<group>"; };
+		B1BDEACD1FA499B800C1292F /* ComentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComentViewController.swift; path = ../ComentViewController.swift; sourceTree = "<group>"; };
 		B1FBA9FA1ED971B300A6D9D4 /* GenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +184,7 @@
 				B1A92AFC1F468F7A00E7D5CD /* pinn.png */,
 				B1BDEAC91FA4961700C1292F /* ripito.png */,
 				B11ABB7E1F80A905006D2F70 /* button_ stroke.png */,
+				B1BDEACD1FA499B800C1292F /* ComentViewController.swift */,
 				B14C33BE1EC701100002F99E /* AppDelegate.swift */,
 				B14C33EE1EC716A10002F99E /* zixyannruViewController.swift */,
 				B14C33C01EC701100002F99E /* ViewController.swift */,
@@ -387,6 +390,7 @@
 				B10A4E0A1F496ADB0093328C /* iti.swift in Sources */,
 				B175E6C61F2C846A009A7BB4 /* HyojiController.swift in Sources */,
 				B1FBA9FB1ED971B300A6D9D4 /* GenreViewController.swift in Sources */,
+				B1BDEACE1FA499B800C1292F /* ComentViewController.swift in Sources */,
 				B175E71E1F36B296009A7BB4 /* CellTapViewController.swift in Sources */,
 				B1A92B051F46974200E7D5CD /* PodfileViewController.swift in Sources */,
 				B16C50471F10C5FD00744B44 /* TableViewController.swift in Sources */,

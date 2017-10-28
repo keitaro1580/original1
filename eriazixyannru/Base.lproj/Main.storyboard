@@ -307,18 +307,18 @@
                                     <segue destination="iWD-Kf-LmQ" kind="show" id="Doq-Yv-CRW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnF-Z5-rib">
-                                <rect key="frame" x="280" y="72" width="79" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHS-Wq-2xl">
+                                <rect key="frame" x="313" y="75" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="コメント">
-                                    <color key="titleColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.29608976399999998" green="0.98548370600000001" blue="0.86351364490000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aB8-Bq-YR4" kind="push" id="opa-g5-eX2"/>
+                                    <segue destination="aB8-Bq-YR4" kind="push" id="i4r-hf-win"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gB9-Wi-QSP">
-                                <rect key="frame" x="16" y="443" width="310" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLM-tD-pCY">
+                                <rect key="frame" x="16" y="113" width="343" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -329,6 +329,7 @@
                     </view>
                     <connections>
                         <outlet property="button" destination="sFb-Bu-0Wq" id="dan-bU-SMm"/>
+                        <outlet property="coment" destination="fLM-tD-pCY" id="vsY-Gu-iPc"/>
                         <outlet property="kuwasii" destination="P18-pN-6Ok" id="745-QV-YWj"/>
                         <outlet property="titleLabel" destination="joK-QC-WiN" id="bHu-rf-LNd"/>
                     </connections>
@@ -337,10 +338,10 @@
             </objects>
             <point key="canvasLocation" x="5376.8000000000002" y="151.57421289355324"/>
         </scene>
-        <!--View Controller-->
+        <!--Coment View Controller-->
         <scene sceneID="97x-5n-qjS">
             <objects>
-                <viewController id="aB8-Bq-YR4" sceneMemberID="viewController">
+                <viewController id="aB8-Bq-YR4" customClass="ComentViewController" customModule="eriazixyannru" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c44-IQ-Uiy"/>
                         <viewControllerLayoutGuide type="bottom" id="5eg-AA-oA1"/>
@@ -349,17 +350,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GIW-Mu-wgU">
-                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8jR-2K-ZtK">
+                                <rect key="frame" x="139" y="252" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="BHh-Tp-hBG"/>
+                    <navigationItem key="navigationItem" id="BHh-Tp-hBG">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="q82-fH-r2w">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EVg-XD-Kzs">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="コメント"/>
+                                <connections>
+                                    <action selector="comentosave" destination="aB8-Bq-YR4" eventType="touchUpInside" id="505-XK-r0T"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="comentText" destination="8jR-2K-ZtK" id="9aQ-kv-8Kv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LO0-4B-d8r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
